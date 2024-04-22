@@ -7,11 +7,6 @@ import Script from "next/script";
 import { Analytics } from '@vercel/analytics/react';
 import Particles from "@components/particles/Particles";
 
-// export const metadata = {
-//     title: "Toolz",
-//     description: "An essential toolkit for designers and developers"
-// }
-
 const RootLayout = ({ children }) => {
   const pathname = usePathname();
   const shouldHideTopNav = pathname === "/finder" ? false : true;
