@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+    
+    background-color: #030117;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+}
+
+
+
+
+  *::-webkit-scrollbar {
+    width: 0px;
+  }
+
+
+
+  
